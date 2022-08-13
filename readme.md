@@ -4,7 +4,7 @@
 
 # Project Name : Product design Landing Page !
 
-In this project i have created a landing page from scratch. And i have learnt a lot of things like how to position HTML elements using common CSS selectors,i have also learnt about positions.i used fully flexbox in this project.
+In this project i have created a Product design landing page from scratch. And i have learnt a lot of things like how to position HTML elements using common CSS selectors,i have also learnt about positions.i used fully flexbox in this project.
 
 ![HTML](https://img.shields.io/badge/-HTML-orange)
 ![images](https://img.shields.io/badge/-CSS%20images-brightgreen)
