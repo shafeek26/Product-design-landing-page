@@ -301,3 +301,105 @@ header{
 .fa-brands{
     margin-right: 30px;
 }
+.fa-bars{
+    font-size: 30px;
+    color: #E21717;
+    display: none;
+}
+
+/* media querries goes here*/
+
+@media screen and (max-width:960px) {
+    .list{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        float: right;
+        margin-right: 40px;
+    }
+    .header-wraper{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:900px) {
+    .background{
+        background-color: #0D0D0D;
+    }
+    .header-wraper{
+        margin-right: 100px;
+        flex-direction: column;
+    }
+    .person-profile{
+        width: 60%;
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+    .experience-container{
+        top: 120rem;
+    }
+    .experience-wrapper{
+        align-items: center;
+    }
+    .services-wraper{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .services{
+        width: 30%;
+        height: 250px;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    .projects-container{
+        margin-top: 50%;
+    }
+
+    .projects-header{
+       flex-direction: column;
+       margin-left: 120px;
+    }
+    .projects-heading{
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .projects-text{
+        text-align: center;
+        margin-bottom: 20px;
+        color: #6e6d6d;
+    }
+    .project-btn{
+        padding: 10px 30px;
+        background-color: #EF5354;
+        color: #ffffff;
+        border: none;
+        font-family: "Poppins",sans-serif;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .projects-wrapper{
+        max-width: 80%;
+        margin: 30px auto;
+    }
+    .projects{
+        text-align: center;
+        max-width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .project-img{
+        width: 300px;
+        background-color: #333232;
+    }
+    .project-name{
+        margin-right: 50px;
+    }
+    .action-heading{
+        font-size: 25px;
+    }
+}
